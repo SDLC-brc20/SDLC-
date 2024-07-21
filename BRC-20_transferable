@@ -1,0 +1,16 @@
+curl --location --request POST 'https://www.okx.com/api/v5/waas/transaction/get-utxo-brc20' \
+--header 'Content-Type: application/json' \
+--header 'OK-ACCESS-PROJECT: 86af********d1bc' \
+--header 'OK-ACCESS-KEY: 37c541a1-****-****-****-10fe7a038418' \
+--header 'OK-ACCESS-SIGN: leaV********3uw=' \
+--header 'OK-ACCESS-PASSPHRASE: 1****6' \
+--header 'OK-ACCESS-TIMESTAMP: 2023-10-18T12:21:41.274Z' \
+--data-raw '{
+  "chainId":0,
+  "utxoRequests":[{
+    "address":"bc1psnr548clz3f4fz6jmpnw5eqzj2v2musk082wp8fvq5ac3p5ete6qg05u8u",
+    "tick":"tokb",
+    "page": 1,
+    "pageSize": 10
+  }]
+}'
