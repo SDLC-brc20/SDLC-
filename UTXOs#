@@ -1,0 +1,8 @@
+curl --location --request GET 'https://www.okx.com/api/v5/waas/wallet/utxo/utxos?chainIndex=0&address=bc1p4sp52y6jfnlgv86t7er3dzgxgd8n5namuvkepw3u6g6rxk5k7feqdsvx3f' \
+--header 'Content-Type: application/json' \
+--header 'OK-ACCESS-PROJECT: 86af********d1bc' \
+--header 'OK-ACCESS-KEY: 37c541a1-****-****-****-10fe7a038418' \
+--header 'OK-ACCESS-SIGN: leaV********3uw=' \
+--header 'OK-ACCESS-PASSPHRASE: 1****6' \
+--header 'OK-ACCESS-TIMESTAMP: 2023-10-18T12:21:41.274Z'
+//If the chain is not supported, an error is directly prompted
