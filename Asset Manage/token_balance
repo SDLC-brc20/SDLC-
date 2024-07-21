@@ -1,0 +1,20 @@
+curl --location --request POST 'https://www.okx.com/api/v5/waas/wallet/asset/token-balances' \
+--header 'Content-Type: application/json' \
+--header 'OK-ACCESS-PROJECT: 86af********d1bc' \
+--header 'OK-ACCESS-KEY: 37c541a1-****-****-****-10fe7a038418' \
+--header 'OK-ACCESS-SIGN: leaV********3uw=' \
+--header 'OK-ACCESS-PASSPHRASE: 1****6' \
+--header 'OK-ACCESS-TIMESTAMP: 2023-10-18T12:21:41.274Z' \
+--data-raw '{
+    "accountId":"",
+    "tokenAddresses": [
+        {
+            "chainIndex": "5",
+            "tokenAddress": "0xdf54b6c6195ea4d948d03bfd818d365cf175cfc2"
+        },
+        {
+            "chainIndex": "7",
+            "tokenAddress": "0xdf444b6c6195ea4d948d04cfd818d365cf175cee3"
+        }
+    ]
+}'
